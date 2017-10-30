@@ -1,0 +1,7 @@
+export { IndexPageComponent } from  "./index/index.component"
+export { ExtraSettingsPageComponent } from "./extra-settings/extra-settings.component"
+export { ModalPageComponent } from "./modal/modal.component"
+export { Page2PageComponent } from "./page2/page2.component"
+export { Page3PageComponent } from "./page3/page3.component"
+export { SettingsPageComponent } from "./settings/settings.component"
+export { TabsPageComponent } from "./tabs/tabs.component"

@@ -20,7 +20,9 @@ import { IndexPageComponent, ExtraSettingsPageComponent, ModalPageComponent, Pag
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      backButtonText: 'Back'
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [

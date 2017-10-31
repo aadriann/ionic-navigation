@@ -10,7 +10,7 @@ import { Mutant } from "../../intefaces/mutant.interface"
 export class Page3PageComponent {
   mutant: Mutant;
 
-  constructor(private navParams:NavParams, private navCtrl:NavController){
+  constructor(public navParams:NavParams, private navCtrl:NavController){
     console.log(navParams.get('mutant'));
     this.mutant = navParams.get('mutant');
   }
